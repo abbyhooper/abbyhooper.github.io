@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worker Bees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><img src="Images/Logo.png" alt="logo" class="logo">   Worker Bees</h1>
+    <nav>
+        <div class="dropdown">
+                <button class="dropbtn">Employer</button>
+                <div class="dropdown-content">
+                    <a href="submitjob.html">Post a Job</a>
+                </div>
+            </div>
+            
+            <!-- Student Dropdown -->
+            <div class="dropdown">
+                <button class="dropbtn">Student</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home/Browse</a>
+                    <a href="applyjob.html">Apply for a Job</a>
+                </div>
+            </div>
+            
+            <!-- Account Dropdown -->
+            <div class="dropdown">
+                <button class="dropbtn">Account</button>
+                <div class="dropdown-content">
+                    <a href="register.html">Create Account</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+    </nav>
+    </header>
+    <form id="login-form">
+    <input type="text" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button type="submit">Login</button>
+</form>
+
+<script src="login.js"></script>
+
+</body>
+</html>
